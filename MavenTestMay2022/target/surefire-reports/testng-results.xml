@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="2" total="21" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12911" started-at="2022-09-16T15:30:14Z" finished-at="2022-09-16T15:30:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12911" started-at="2022-09-16T15:30:14Z" finished-at="2022-09-16T15:30:26Z">
+      <class name="testngsamples.Actitime_InvocationCount">
+        <test-method status="PASS" signature="openBrowserAndAppURL()[pri:0, instance:testngsamples.Actitime_InvocationCount@5db45159]" name="openBrowserAndAppURL" duration-ms="8" started-at="2022-09-16T15:30:14Z" finished-at="2022-09-16T15:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppURL -->
+        <test-method status="PASS" signature="openBrowserAndAppURL()[pri:0, instance:testngsamples.Actitime_InvocationCount@5db45159]" name="openBrowserAndAppURL" duration-ms="1" started-at="2022-09-16T15:30:14Z" finished-at="2022-09-16T15:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppURL -->
+        <test-method status="PASS" signature="openBrowserAndAppURL()[pri:0, instance:testngsamples.Actitime_InvocationCount@5db45159]" name="openBrowserAndAppURL" duration-ms="0" started-at="2022-09-16T15:30:14Z" finished-at="2022-09-16T15:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppURL -->
+        <test-method status="PASS" signature="openBrowserAndAppURL()[pri:0, instance:testngsamples.Actitime_InvocationCount@5db45159]" name="openBrowserAndAppURL" duration-ms="0" started-at="2022-09-16T15:30:14Z" finished-at="2022-09-16T15:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppURL -->
+        <test-method status="PASS" signature="openBrowserAndAppURL()[pri:0, instance:testngsamples.Actitime_InvocationCount@5db45159]" name="openBrowserAndAppURL" duration-ms="0" started-at="2022-09-16T15:30:14Z" finished-at="2022-09-16T15:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppURL -->
+      </class> <!-- testngsamples.Actitime_InvocationCount -->
+      <class name="testngsamples.Actitime_Enabled">
+        <test-method status="PASS" signature="createTask()[pri:0, instance:testngsamples.Actitime_Enabled@7c417213]" name="createTask" duration-ms="0" started-at="2022-09-16T15:30:26Z" finished-at="2022-09-16T15:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method status="PASS" signature="openBrowserAndAppURL()[pri:0, instance:testngsamples.Actitime_Enabled@7c417213]" name="openBrowserAndAppURL" duration-ms="1" started-at="2022-09-16T15:30:26Z" finished-at="2022-09-16T15:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppURL -->
+      </class> <!-- testngsamples.Actitime_Enabled -->
+      <class name="testngsamples.Actitime_Timeout">
+        <test-method status="PASS" signature="openBrowserAndAppURL()[pri:0, instance:testngsamples.Actitime_Timeout@15761df8]" name="openBrowserAndAppURL" duration-ms="191" started-at="2022-09-16T15:30:26Z" finished-at="2022-09-16T15:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppURL -->
+      </class> <!-- testngsamples.Actitime_Timeout -->
+      <class name="testngsamples.Actitime_DependsOn">
+        <test-method status="PASS" signature="createTask()[pri:0, instance:testngsamples.Actitime_DependsOn@327b636c]" name="createTask" duration-ms="0" started-at="2022-09-16T15:30:26Z" finished-at="2022-09-16T15:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method status="FAIL" signature="openBrowserAndAppURL()[pri:0, instance:testngsamples.Actitime_DependsOn@327b636c]" name="openBrowserAndAppURL" duration-ms="0" started-at="2022-09-16T15:30:26Z" finished-at="2022-09-16T15:30:26Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at testngsamples.Actitime_DependsOn.openBrowserAndAppURL(Actitime_DependsOn.java:7)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppURL -->
+        <test-method status="PASS" signature="logoutClose()[pri:0, instance:testngsamples.Actitime_DependsOn@327b636c]" name="logoutClose" duration-ms="1" started-at="2022-09-16T15:30:26Z" finished-at="2022-09-16T15:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutClose -->
+        <test-method status="SKIP" signature="login()[pri:0, instance:testngsamples.Actitime_DependsOn@327b636c]" name="login" duration-ms="0" started-at="2022-09-16T15:30:26Z" depends-on-methods="testngsamples.Actitime_DependsOn.openBrowserAndAppURL" finished-at="2022-09-16T15:30:26Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Actitime_DependsOn.login()[pri:0, instance:testngsamples.Actitime_DependsOn@327b636c] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Actitime_DependsOn.login()[pri:0, instance:testngsamples.Actitime_DependsOn@327b636c] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testngsamples.Actitime_DependsOn -->
+      <class name="testngsamples.Actitime_ExceptionAndTimeout">
+        <test-method status="PASS" signature="dividedByZeroExample1()[pri:0, instance:testngsamples.Actitime_ExceptionAndTimeout@6ab7a896]" name="dividedByZeroExample1" duration-ms="1" started-at="2022-09-16T15:30:26Z" finished-at="2022-09-16T15:30:26Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at testngsamples.Actitime_ExceptionAndTimeout.dividedByZeroExample1(Actitime_ExceptionAndTimeout.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dividedByZeroExample1 -->
+        <test-method status="PASS" signature="executetimeOut()[pri:0, instance:testngsamples.Actitime_ExceptionAndTimeout@6ab7a896]" name="executetimeOut" duration-ms="1" started-at="2022-09-16T15:30:26Z" finished-at="2022-09-16T15:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executetimeOut -->
+      </class> <!-- testngsamples.Actitime_ExceptionAndTimeout -->
+      <class name="testngsamples.FirstTestNgWebScript">
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:testngsamples.FirstTestNgWebScript@6107227e]" name="testCase1" duration-ms="12667" started-at="2022-09-16T15:30:14Z" finished-at="2022-09-16T15:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- testngsamples.FirstTestNgWebScript -->
+      <class name="testngsamples.Actitime_Priority">
+        <test-method status="PASS" signature="openBrowserAndAppURL()[pri:1, instance:testngsamples.Actitime_Priority@45dd4eda]" name="openBrowserAndAppURL" duration-ms="0" started-at="2022-09-16T15:30:26Z" description="Open browser and enter URL" finished-at="2022-09-16T15:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndAppURL -->
+        <test-method status="PASS" signature="login()[pri:2, instance:testngsamples.Actitime_Priority@45dd4eda]" name="login" duration-ms="1" started-at="2022-09-16T15:30:26Z" finished-at="2022-09-16T15:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createTask()[pri:3, instance:testngsamples.Actitime_Priority@45dd4eda]" name="createTask" duration-ms="0" started-at="2022-09-16T15:30:26Z" finished-at="2022-09-16T15:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method status="PASS" signature="logoutClose()[pri:4, instance:testngsamples.Actitime_Priority@45dd4eda]" name="logoutClose" duration-ms="0" started-at="2022-09-16T15:30:26Z" finished-at="2022-09-16T15:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutClose -->
+      </class> <!-- testngsamples.Actitime_Priority -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
